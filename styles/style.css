@@ -1,31 +1,39 @@
-html {
-    font-size: 50px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: 'Poor Story', cursive; /* this should be the rest of the output you got from Google Fonts */
-    background-color: #bfe0ff; /*changing the color */
-}  
-
-h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #00539f;
-    text-shadow: 3px 3px 1px black;
-  }
-  
-p,
-li {
-    font-size: 30px;
-    line-height: 2;
-    letter-spacing: 1px;
+header {
+    color:rgb(238, 143, 0);
+    background-color: rgb(255, 189, 134);
+    text-align: center;
+    font-size:x-large;
+    border: solid;
+    text-shadow: 1px 1px rgb(180, 134, 96);
+    /*display: box; */
 }
-body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #ff9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
 
-img {
-  display: block;
-  margin: 0 auto;
+body {
+    background-color: pink;
+}
+
+div.container {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
